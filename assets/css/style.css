@@ -49,3 +49,75 @@ HEADER STYLE
 .sign_list>li>.btn{
     color: rgba(87, 154, 255, 1);
 }
+
+/* jumbotron style */
+
+/* jumbo_txt style */
+.jumbotron{
+    background-image: url(../img/bg-banner-home.jpg);
+    height: 450px;
+    background-position: center;
+    background-size: 106%;
+}
+.jumbotron>.container{
+    align-items: center;
+}
+.jumbo_txt{
+    color: white;
+    font-size: 20px;
+}
+.jumbo_txt>h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+/* jumbo_form style */
+.jumbo_form{
+    justify-content: flex-end;
+}
+form{
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    height: 70%;
+    width: 75%;
+    padding: 15px;
+    color: rgba(65, 82, 119, 1);
+}
+form>h2:nth-child(2){
+    color: rgba(87, 154, 255, 1);
+}
+form>input, form>button{
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px 0;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid lightgray;
+    
+}
+.create{
+    background-color: rgba(87, 154, 255, 1);
+    color: white;
+    border: none;
+}
+.glg_sign{
+    position: relative;
+    background-color: white;
+    box-shadow: 0px 2px 5px 1px gray;
+    
+}
+.glg_sign>img{
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translatey(-50%);
+    width: 15px;
+}
+form>span{
+    font-size: 10px;
+}
+form a{
+    text-decoration: underline;
+}

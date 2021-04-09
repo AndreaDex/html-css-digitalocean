@@ -1,0 +1,51 @@
+/* COMMON RULES */
+body{
+    font-family:  'Roboto', sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* UTILITY CLASS */
+.flex{
+    display: flex;
+}
+.btn{
+    border: 2px solid rgba(87, 154, 255, 1);
+    border-radius: 5px;
+    padding: 5px 10px;
+
+}
+
+/******
+HEADER STYLE 
+*****/
+/* Navbar style */
+.navbar>.container{
+    align-items: center;
+    padding: 10px 0;
+}
+
+.logo img{
+    height: 30px;
+}
+
+.mm_list>li, .sign_list>li{
+    display:inline-block;
+    padding: 5px;
+    
+}
+.sign_list>li{
+    text-align: right;
+}
+.mm_list>li>a, .sign_list>li>a{
+    color: rgba(65, 82, 119, 1);
+    font-weight: 500;
+    font-size: 14px;
+}
+.sign_list>li>.btn{
+    color: rgba(87, 154, 255, 1);
+}

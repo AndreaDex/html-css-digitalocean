@@ -13,11 +13,20 @@ a{
 .flex{
     display: flex;
 }
+.flex_cnt_cent{
+    display: flex;
+    justify-content: center;
+}
 .btn{
     border: 2px solid rgba(87, 154, 255, 1);
     border-radius: 5px;
     padding: 5px 10px;
-
+}
+.txt_cent{
+    text-align: center;
+}
+.mg_btm{
+    margin-bottom: 35px;
 }
 
 /******
@@ -151,8 +160,17 @@ MAIN STYLE
 
 /* deply section style */
 .deploy{
-    text-align: center;
-    padding: 20px 0;
+    padding: 35px 0;
+}
+.deploy_list{
+   border-left: 1px solid rgba(96, 110, 139, 1);
+   padding: 10px 0;
+}
+.deploy_list>li{
+    padding: 15px 15px;
+}
+.deploy_list>li>a{
+    color: rgba(96, 110, 139, 1);
 }
 .deploy h2{
     color: rgba(3, 28, 78, 1);
@@ -161,8 +179,12 @@ MAIN STYLE
 .deploy p{
     color: rgba(96, 110, 139, 1);
 }
-
 .cards{
-    text-align: left;
-
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+.cards h4{
+    padding: 15px 0;
 }

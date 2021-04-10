@@ -28,6 +28,12 @@ a{
 .mg_btm{
     margin-bottom: 35px;
 }
+.blu_do_txt{
+    color: rgba(3, 28, 78, 1);
+}
+.grey_do_txt{
+    color: rgba(96, 110, 139, 1);
+}
 
 /******
 HEADER STYLE 
@@ -159,9 +165,7 @@ MAIN STYLE
 
 
 /* deply section style */
-.deploy{
-    padding: 35px 0;
-}
+
 .deploy_list{
    border-left: 1px solid rgba(96, 110, 139, 1);
    padding: 10px 0;
@@ -172,19 +176,102 @@ MAIN STYLE
 .deploy_list>li>a{
     color: rgba(96, 110, 139, 1);
 }
-.deploy h2{
+
+/*** common deploy, designed, features style */
+.deploy, .features{
+    padding: 35px 0;
+}
+.deploy h2, .designed h2, .features h2{
     color: rgba(3, 28, 78, 1);
     padding: 10px;
+    font-size: 28px;
 }
-.deploy p{
+.deploy p, .designed p{
     color: rgba(96, 110, 139, 1);
+    font-weight: 500;
+    font-size: 18px;
 }
+
 .cards{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 20px;
 }
-.cards h4{
-    padding: 15px 0;
+.cards>h4{
+    padding: 10px 0;
+    color: rgba(3, 28, 78, 1);
+}
+.cards>p{
+    color: rgba(96, 110, 139, 1);
+    font-weight: 400;
+    padding: 10px 0;
+    font-size: 14px;
+}
+.cards span>a{
+    color: rgba(71, 144, 253, 1);
+    font-size: 14px;
+}
+/*** common deploy, designed, features style */
+
+
+/* designed for dev section style */
+.designed{
+    background-color: rgba(243, 245, 249, 1);
+    padding: 40px 0;
+}
+.slide_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+/* designed slide style */
+.designed>.fas, .fa-chevron-left{
+    color: rgba(96, 110, 139, 1);
+}
+.slide_img{
+    width: 100%;
+}
+.designed>.fas, .fa-chevron-right{
+    color: rgba(3, 28, 78, 1);
+}
+/* designed bottom style */
+.designed h5{
+    color: rgba(3, 28, 78, 1);
+    padding: 5px;
+}
+.designed>.fas, .fa-circle{
+    color: rgba(0, 106, 255, 1);
+}
+
+/* regions section style  */
+.regions{
+    background-image: linear-gradient(to bottom, rgba(0, 71, 197, 1), rgba(0, 30, 154, 1));
+    padding: 35px 0;
+}
+/* regions title style */
+.regions h2{
+    color: white;
+    font-size: 28px;
+}
+/* region table style */
+.regions_row{
+    border-bottom: 1px solid white;
+    padding: 10px;
+}
+.regions_cap{
+    color: white;
+}
+.regions_name{
+    color: rgba(88, 122, 203, 1);
+    font-size: 14px;
+}
+.regions_test{
+    text-align: right;
+}
+.regions_test>span>a{
+    font-size: 14px;
+    color: rgba(0, 185, 203, 1);
 }

@@ -34,6 +34,9 @@ a{
 .grey_do_txt{
     color: rgba(96, 110, 139, 1);
 }
+.pd10{
+    padding: 10px 10px;
+}
 
 /******
 HEADER STYLE 
@@ -263,10 +266,13 @@ MAIN STYLE
 }
 .regions_cap{
     color: white;
+    font-weight: bold;
+    font-size: 14px;
 }
 .regions_name{
-    color: rgba(88, 122, 203, 1);
+    color:  #8a9dc4;
     font-size: 14px;
+    font-weight: 500;
 }
 .regions_test{
     text-align: right;

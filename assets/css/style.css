@@ -281,3 +281,47 @@ MAIN STYLE
     font-size: 14px;
     color: rgba(0, 185, 203, 1);
 }
+
+/* DEVLOVE section */
+.devlove{
+    background-color: rgba(243, 245, 249, 1);
+    padding: 40px;
+}
+/* devlove title style */
+.devlove h2{
+    font-size: 28px;
+    color: rgba(3, 28, 78, 1);
+    padding-bottom: 20px;
+}
+/* devlove slide style */
+.devlove>.fas, .fa-chevron-left{
+    color: rgba(96, 110, 139, 1);
+}
+.slide_img{
+    width: 100%;
+}
+.devlove>.fas, .fa-chevron-right{
+    color: rgba(3, 28, 78, 1);
+}
+/* devlovebottom */
+.devlove>.fas, .fa-circle{
+    color: rgba(0, 106, 255, 1);
+}
+
+/* GET START SECTION */
+.start{
+    background-color: rgba(0, 35, 157, 1);
+    padding: 30px 0;
+}
+.start h2{
+    color: white;
+    font-size: 28px;
+    padding: 25px 0;
+}
+
+.start .btn{
+    background-color: white;
+    color: rgba(5, 109, 255, 1);
+    font-weight: 500;
+    border: none;
+}

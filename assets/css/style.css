@@ -396,10 +396,20 @@ MEDIA QUERY
 
 /* mobile */
 @media screen and (max-width: 767px){
+    /* common */
+    .container{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .cards{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     /* HEADER */
-    /* navbar */
+    /* navbar section*/
     .navbar>.container{
-        padding: 10px;
+        padding: 10px 20px;
     }
     .main_menu, .sign_menu{
         display: none;
@@ -408,9 +418,11 @@ MEDIA QUERY
         display: block;
     }
 
-    /* jumbotron */
+    /* jumbotron section*/
+    .jumbotron{
+        background-size: auto;
+    }
     .jumbotron>.container{
-        padding: 0 20px;
         flex-flow: column;
     }
     .jumbo_form{
@@ -420,4 +432,42 @@ MEDIA QUERY
     .jumbo_form form{
         width: 100%;
     }
+
+    /*****
+     MAIN 
+    ******/
+    /* deply section */
+   #diploy_list_col{
+       display: block;
+   }
+    
+   /* designed section */
+   .arrow_col{
+       display: none;
+   }
+   .slide_row>.col-xs-6{
+       margin: 30px 0;
+   }
+   .designed .row>h5{
+       width: 50%;
+       margin: 0 auto 20px auto;
+   }
+
+   /* features section */
+   .features h2{
+       font-size: 30px;
+   }
+
+   /* devlove section */
+    .rock_slide{
+        text-align: center;
+       padding-bottom: 30px;
+   }
+
+   /*****
+   FOOTER
+   *****/
+   footer{
+       padding: 35px 0;
+   }
 }

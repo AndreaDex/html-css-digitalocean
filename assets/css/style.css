@@ -8,6 +8,9 @@ ul{
 a{
     text-decoration: none;
 }
+p{
+    line-height: 20px;
+}
 
 /* UTILITY CLASS */
 .flex{
@@ -46,17 +49,17 @@ HEADER STYLE
     align-items: center;
     padding: 10px 0;
 }
-
+/* logo style */
 .logo img{
     height: 30px;
 }
-
+/* mm style */
 .mm_list>li, .sign_list>li{
     display:inline-block;
     padding: 5px;
     
 }
-.sign_list>li{
+.sign_menu{
     text-align: right;
 }
 .mm_list>li>a, .sign_list>li>a{
@@ -67,7 +70,14 @@ HEADER STYLE
 .sign_list>li>.btn{
     color: rgba(87, 154, 255, 1);
 }
-
+/* bar_menu style */
+.bar_menu{
+    display: none;
+    text-align: right;
+}
+.bar_menu >.fas .fa-bars{
+    color: rgba(65, 82, 119, 1);
+}
 /* jumbotron style */
 
 /* jumbo_txt style */
@@ -297,9 +307,33 @@ MAIN STYLE
 .devlove>.fas, .fa-chevron-left{
     color: rgba(96, 110, 139, 1);
 }
-.slide_img{
-    width: 100%;
+.rock_slide{
+    background-color: white;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 10px;
+    border-radius: 5px;
 }
+.rock_slide>img{
+    width: 50%;
+    padding: 10px 0;
+} 
+.rock_slide p{
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+.rock_slide span{
+    font-size: 14px;
+}
+.rock_slide span:last-child{
+    padding: 20px 0;
+}
+.rock_slide span>a{
+    color: rgba(71, 144, 253, 1);
+}
+
 .devlove>.fas, .fa-chevron-right{
     color: rgba(3, 28, 78, 1);
 }

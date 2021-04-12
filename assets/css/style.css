@@ -10,6 +10,7 @@ a{
 }
 p{
     line-height: 20px;
+    font-weight: 500;
 }
 
 /* UTILITY CLASS */
@@ -46,6 +47,7 @@ HEADER STYLE
 *****/
 /* Navbar style */
 .navbar>.container{
+    justify-content: space-between;
     align-items: center;
     padding: 10px 0;
 }
@@ -83,9 +85,9 @@ HEADER STYLE
 /* jumbo_txt style */
 .jumbotron{
     background-image: url(../img/bg-banner-home.jpg);
-    height: 450px;
+    padding: 50px 0;
     background-position: center;
-    background-size: 106%;
+    background-size: 95%;
 }
 .jumbotron>.container{
     align-items: center;
@@ -107,7 +109,6 @@ form{
     text-align: center;
     background-color: white;
     border-radius: 5px;
-    height: 70%;
     width: 75%;
     padding: 15px;
     color: rgba(65, 82, 119, 1);
@@ -173,7 +174,8 @@ MAIN STYLE
 } 
 .customers span>a{
     color: rgba(71, 144, 253, 1);
-    font-size: 10px;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 
@@ -217,13 +219,13 @@ MAIN STYLE
 }
 .cards>p{
     color: rgba(96, 110, 139, 1);
-    font-weight: 400;
     padding: 10px 0;
     font-size: 14px;
 }
 .cards span>a{
     color: rgba(71, 144, 253, 1);
     font-size: 14px;
+    font-weight: bold;
 }
 /*** common deploy, designed, features style */
 
@@ -332,6 +334,7 @@ MAIN STYLE
 }
 .rock_slide span>a{
     color: rgba(71, 144, 253, 1);
+    font-weight: 500;
 }
 
 .devlove>.fas, .fa-chevron-right{
@@ -369,6 +372,9 @@ footer{
     color: white;
     font-size: 14px;
 }
+footer .col-lg-2{
+    padding: 15px 0;
+}
 footer li{
     padding: 5px 0;
 }
@@ -382,4 +388,36 @@ footer ul>li:not(:first-child){
 footer ul>li>a>.fab{
     color: white;
     padding: 0 5px;
+}
+
+/*****
+MEDIA QUERY
+******/
+
+/* mobile */
+@media screen and (max-width: 767px){
+    /* HEADER */
+    /* navbar */
+    .navbar>.container{
+        padding: 10px;
+    }
+    .main_menu, .sign_menu{
+        display: none;
+    }
+    .bar_menu{
+        display: block;
+    }
+
+    /* jumbotron */
+    .jumbotron>.container{
+        padding: 0 20px;
+        flex-flow: column;
+    }
+    .jumbo_form{
+        padding-top: 15px;
+        justify-content: center;
+    }
+    .jumbo_form form{
+        width: 100%;
+    }
 }
